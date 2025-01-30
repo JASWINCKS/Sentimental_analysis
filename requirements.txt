@@ -1,0 +1,6 @@
+tensorflow
+wordcloud
+matplotlib
+tensorflow_datasets
+scikit-learn
+nltk

@@ -30,17 +30,6 @@ This project implements a Sentiment Analysis model using a Recurrent Neural Netw
    pip install -r requirements.txt
    ```
 
-## Usage
-1. Prepare the dataset and place it in the `data/` directory.
-2. Train the model:
-   ```bash
-   python scripts/train.py
-   ```
-3. Evaluate the model:
-   ```bash
-   python scripts/evaluate.py
-   ```
-
 ## Model Architecture
 - **Embedding Layer**: Converts input tokens to dense vectors.
 - **RNN Layer**: Captures sequential dependencies.
@@ -49,6 +38,7 @@ This project implements a Sentiment Analysis model using a Recurrent Neural Netw
 ## Requirements
 - Python 3.8+
 - TensorFlow or PyTorch
+- WordCloud
 - NumPy
 - Pandas
 - Matplotlib
